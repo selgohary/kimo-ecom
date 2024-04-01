@@ -1,0 +1,493 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-02 14:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\ecommerce\models.py:6
+msgid "icon"
+msgstr ""
+
+#: .\ecommerce\models.py:7 .\ecommerce\models.py:34 .\ecommerce\models.py:42
+#: .\ecommerce\models.py:54 .\ecommerce\models.py:63 .\ecommerce\models.py:81
+msgid "title"
+msgstr ""
+
+#: .\ecommerce\models.py:8 .\ecommerce\models.py:35 .\ecommerce\models.py:43
+#: .\ecommerce\models.py:55 .\ecommerce\models.py:64 .\ecommerce\models.py:82
+msgid "title_ar"
+msgstr ""
+
+#: .\ecommerce\models.py:9 .\ecommerce\models.py:45 .\ecommerce\models.py:65
+#: .\ecommerce\models.py:83
+msgid "description"
+msgstr ""
+
+#: .\ecommerce\models.py:10 .\ecommerce\models.py:46 .\ecommerce\models.py:66
+#: .\ecommerce\models.py:84
+msgid "description_ar"
+msgstr ""
+
+#: .\ecommerce\models.py:11 .\ecommerce\models.py:143
+msgid "phone"
+msgstr ""
+
+#: .\ecommerce\models.py:12 .\ecommerce\models.py:94
+msgid "address"
+msgstr ""
+
+#: .\ecommerce\models.py:13
+msgid "address_ar"
+msgstr ""
+
+#: .\ecommerce\models.py:14
+msgid "fb_link"
+msgstr ""
+
+#: .\ecommerce\models.py:15
+msgid "tw_link"
+msgstr ""
+
+#: .\ecommerce\models.py:16
+msgid "ins_link"
+msgstr ""
+
+#: .\ecommerce\models.py:17
+msgid "li_link"
+msgstr ""
+
+#: .\ecommerce\models.py:20
+msgid "Shoppy"
+msgstr ""
+
+#: .\ecommerce\models.py:26 .\ecommerce\models.py:144
+msgid "email"
+msgstr ""
+
+#: .\ecommerce\models.py:28
+msgid "Subscriber"
+msgstr ""
+
+#: .\ecommerce\models.py:33 .\ecommerce\models.py:47 .\ecommerce\models.py:67
+#: .\ecommerce\models.py:95
+msgid "image"
+msgstr ""
+
+#: .\ecommerce\models.py:37
+msgid "Slider"
+msgstr ""
+
+#: .\ecommerce\models.py:44 .\ecommerce\models.py:115
+msgid "rate"
+msgstr ""
+
+#: .\ecommerce\models.py:49
+msgid "Offer"
+msgstr ""
+
+#: .\ecommerce\models.py:57
+msgid "Category"
+msgstr ""
+
+#: .\ecommerce\models.py:68
+msgid "price"
+msgstr ""
+
+#: .\ecommerce\models.py:69
+msgid "discound"
+msgstr ""
+
+#: .\ecommerce\models.py:70
+msgid "policy_return"
+msgstr ""
+
+#: .\ecommerce\models.py:71
+msgid "policy_return_ar"
+msgstr ""
+
+#: .\ecommerce\models.py:72
+msgid "warnty"
+msgstr ""
+
+#: .\ecommerce\models.py:73
+msgid "warnty_ar"
+msgstr ""
+
+#: .\ecommerce\models.py:76
+msgid "Product"
+msgstr ""
+
+#: .\ecommerce\models.py:85
+msgid "icon_name"
+msgstr ""
+
+#: .\ecommerce\models.py:87
+msgid "About_Company"
+msgstr ""
+
+#: .\ecommerce\models.py:93
+msgid "full_name"
+msgstr ""
+
+#: .\ecommerce\models.py:96
+msgid "phone_number"
+msgstr ""
+
+#: .\ecommerce\models.py:97
+msgid "join_on"
+msgstr ""
+
+#: .\ecommerce\models.py:99
+msgid "Clients"
+msgstr ""
+
+#: .\ecommerce\models.py:105 .\ecommerce\models.py:147
+msgid "total"
+msgstr ""
+
+#: .\ecommerce\models.py:106 .\ecommerce\models.py:148
+msgid "created_at"
+msgstr ""
+
+#: .\ecommerce\models.py:108 .\ecommerce\templates\cart.html:3
+msgid "Cart"
+msgstr ""
+
+#: .\ecommerce\models.py:116
+msgid "quantity"
+msgstr ""
+
+#: .\ecommerce\models.py:117 .\ecommerce\models.py:145
+msgid "subtotal"
+msgstr ""
+
+#: .\ecommerce\models.py:119
+msgid "CartProduct"
+msgstr ""
+
+#: .\ecommerce\models.py:124 .\ecommerce\models.py:149
+msgid "Order Received"
+msgstr ""
+
+#: .\ecommerce\models.py:125
+msgid "Order Processing"
+msgstr ""
+
+#: .\ecommerce\models.py:126
+msgid "Order On The Way"
+msgstr ""
+
+#: .\ecommerce\models.py:127
+msgid "Order Delivered"
+msgstr ""
+
+#: .\ecommerce\models.py:128
+msgid "Order Cancelled"
+msgstr ""
+
+#: .\ecommerce\models.py:132 .\ecommerce\models.py:150
+msgid "Cash On Delivery"
+msgstr ""
+
+#: .\ecommerce\models.py:133
+msgid "Master Card"
+msgstr ""
+
+#: .\ecommerce\models.py:134
+msgid "Visa Card"
+msgstr ""
+
+#: .\ecommerce\models.py:135
+msgid "Paypal"
+msgstr ""
+
+#: .\ecommerce\models.py:136
+msgid "Fawry"
+msgstr ""
+
+#: .\ecommerce\models.py:141
+msgid "client"
+msgstr ""
+
+#: .\ecommerce\models.py:142
+msgid "shipping_address"
+msgstr ""
+
+#: .\ecommerce\models.py:146
+msgid "discount"
+msgstr ""
+
+#: .\ecommerce\models.py:149
+msgid "order_status"
+msgstr ""
+
+#: .\ecommerce\models.py:150
+msgid "payment_method"
+msgstr ""
+
+#: .\ecommerce\models.py:151
+msgid "payment_completed"
+msgstr ""
+
+#: .\ecommerce\models.py:153
+msgid "Order"
+msgstr ""
+
+#: .\ecommerce\templates\add_to_cart.html:4
+msgid "Add To Cart"
+msgstr ""
+
+#: .\ecommerce\templates\add_to_cart.html:11
+msgid "Congratulations! Product is added to the cart successfully"
+msgstr ""
+
+#: .\ecommerce\templates\add_to_cart.html:12
+msgid "Check Your Cart"
+msgstr ""
+
+#: .\ecommerce\templates\allproducts_page.html:5
+#: .\ecommerce\templates\allproducts_page.html:13
+#: .\templates\snippets\navbar.html:26
+msgid "All Products"
+msgstr ""
+
+#: .\ecommerce\templates\cart.html:65 .\ecommerce\templates\cart.html:132
+msgid "Checkout"
+msgstr ""
+
+#: .\ecommerce\templates\cart.html:66 .\ecommerce\templates\cart.html:133
+msgid "Empty cart"
+msgstr ""
+
+#: .\ecommerce\templates\cart.html:77
+msgid "Shopping Cart"
+msgstr ""
+
+#: .\ecommerce\templates\cart.html:78 .\ecommerce\templates\checkout.html:64
+msgid "items"
+msgstr ""
+
+#: .\ecommerce\templates\checkout.html:4
+msgid "Check Out"
+msgstr ""
+
+#: .\ecommerce\templates\checkout.html:63
+msgid "Items In Shopping Cart"
+msgstr ""
+
+#: .\ecommerce\templates\checkout.html:102
+msgid "checkout"
+msgstr ""
+
+#: .\ecommerce\templates\children_page.html:4
+#: .\templates\snippets\footer.html:43 .\templates\snippets\navbar.html:36
+msgid "Children"
+msgstr ""
+
+#: .\ecommerce\templates\children_page.html:11
+msgid "Children Products"
+msgstr ""
+
+#: .\ecommerce\templates\client_login.html:3
+#: .\ecommerce\templates\client_login.html:13
+#: .\ecommerce\templates\client_login.html:25
+#: .\templates\snippets\navbar.html:115
+msgid "Login"
+msgstr ""
+
+#: .\ecommerce\templates\client_login.html:9
+msgid "Create an account"
+msgstr ""
+
+#: .\ecommerce\templates\client_login.html:18
+#: .\ecommerce\templates\client_register.html:13
+msgid "Username"
+msgstr ""
+
+#: .\ecommerce\templates\client_login.html:22
+#: .\ecommerce\templates\client_register.html:26
+msgid "Password"
+msgstr ""
+
+#: .\ecommerce\templates\client_profile.html:4
+#: .\ecommerce\templates\client_profile.html:12
+#: .\templates\snippets\navbar.html:97 .\templates\snippets\navbar.html:104
+msgid "Profile"
+msgstr ""
+
+#: .\ecommerce\templates\client_register.html:3
+#: .\ecommerce\templates\client_register.html:8
+#: .\ecommerce\templates\client_register.html:34
+#: .\templates\snippets\navbar.html:114
+msgid "Register"
+msgstr ""
+
+#: .\ecommerce\templates\client_register.html:17
+msgid "Full Name"
+msgstr ""
+
+#: .\ecommerce\templates\client_register.html:22
+#: .\ecommerce\templates\forgot_password.html:25
+msgid "Email"
+msgstr ""
+
+#: .\ecommerce\templates\client_register.html:30
+#: .\templates\snippets\footer.html:16 .\templates\snippets\footer.html:27
+msgid "Address"
+msgstr ""
+
+#: .\ecommerce\templates\client_register.html:40
+msgid "I am already member"
+msgstr ""
+
+#: .\ecommerce\templates\forgot_password.html:3
+#: .\ecommerce\templates\forgot_password.html:9
+msgid "Forgot Password"
+msgstr ""
+
+#: .\ecommerce\templates\forgot_password.html:12
+msgid "Password Reset Link is sent to you email Check your inbox immediately"
+msgstr ""
+
+#: .\ecommerce\templates\forgot_password.html:17
+msgid "Something went wrong please try again .. !"
+msgstr ""
+
+#: .\ecommerce\templates\forgot_password.html:28
+msgid "Reset"
+msgstr ""
+
+#: .\ecommerce\templates\home_page.html:15 .\templates\snippets\footer.html:39
+#: .\templates\snippets\navbar.html:25
+msgid "Home"
+msgstr ""
+
+#: .\ecommerce\templates\home_page.html:47
+#: .\ecommerce\templates\home_page.html:134
+msgid "Shop Now"
+msgstr ""
+
+#: .\ecommerce\templates\home_page.html:79
+msgid "Our Products"
+msgstr ""
+
+#: .\ecommerce\templates\home_page.html:121
+msgid "Our Offers"
+msgstr ""
+
+#: .\ecommerce\templates\home_page.html:125
+msgid "Limited Offers"
+msgstr ""
+
+#: .\ecommerce\templates\home_page.html:125
+msgid "OFF"
+msgstr ""
+
+#: .\ecommerce\templates\home_page.html:146
+msgid "Our Services"
+msgstr ""
+
+#: .\ecommerce\templates\men_page.html:4 .\templates\snippets\footer.html:41
+#: .\templates\snippets\navbar.html:34
+msgid "Men"
+msgstr ""
+
+#: .\ecommerce\templates\men_page.html:12
+msgid "Men Products"
+msgstr ""
+
+#: .\ecommerce\templates\product_details.html:6
+#: .\ecommerce\templates\product_details.html:8
+#: .\ecommerce\templates\product_details.html:20
+#: .\ecommerce\templates\product_details.html:22
+msgid "Details"
+msgstr ""
+
+#: .\ecommerce\templates\reset_password.html:3
+#: .\ecommerce\templates\reset_password.html:8
+msgid "Change Password"
+msgstr ""
+
+#: .\ecommerce\templates\reset_password.html:14
+msgid "new password"
+msgstr ""
+
+#: .\ecommerce\templates\reset_password.html:18
+msgid "Confirm new password"
+msgstr ""
+
+#: .\ecommerce\templates\reset_password.html:21
+#: .\ecommerce\templates\update_profile.html:14
+msgid "Save"
+msgstr ""
+
+#: .\ecommerce\templates\update_profile.html:4
+msgid "Edit Profile"
+msgstr ""
+
+#: .\ecommerce\templates\woman_page.html:4 .\templates\snippets\footer.html:42
+#: .\templates\snippets\navbar.html:35
+msgid "Women"
+msgstr ""
+
+#: .\ecommerce\templates\woman_page.html:12
+msgid "Women Products"
+msgstr ""
+
+#: .\templates\snippets\footer.html:9 .\templates\snippets\footer.html:21
+msgid "About"
+msgstr ""
+
+#: .\templates\snippets\footer.html:13 .\templates\snippets\footer.html:24
+msgid "Phone"
+msgstr ""
+
+#: .\templates\snippets\footer.html:37
+msgid "Useful Links"
+msgstr ""
+
+#: .\templates\snippets\footer.html:40
+msgid "All Product"
+msgstr ""
+
+#: .\templates\snippets\footer.html:50 .\templates\snippets\footer.html:52
+msgid "Join our mailing list and receive exclusives"
+msgstr ""
+
+#: .\templates\snippets\footer.html:59
+msgid "Email address"
+msgstr ""
+
+#: .\templates\snippets\footer.html:60
+msgid "Subscribe"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:30
+msgid "Categories"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:45 .\templates\snippets\navbar.html:47
+msgid "Languages"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:98 .\templates\snippets\navbar.html:105
+msgid "Settings"
+msgstr ""
+
+#: .\templates\snippets\navbar.html:100 .\templates\snippets\navbar.html:107
+msgid "Logout"
+msgstr ""

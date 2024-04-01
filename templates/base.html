@@ -1,0 +1,30 @@
+{% load i18n %}
+<!doctype html>
+{% get_current_language as LANGUAGE_CODE %}
+{% if LANGUAGE_CODE == 'ar' %}
+<html lang="ar" dir="rtl">
+{% else %}
+<html lang="en" dir="ltr">
+{% endif %}
+
+<head>
+	{% include 'snippets/head.html' %}
+	
+	{% block add_links %}{% endblock add_links %}
+	<title>{% block title %}{% endblock title %}</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	<style>
+		body{
+			font-family: 'Cairo', sans-serif;
+		}
+	</style>
+	
+</head>
+<body>
+	{% include "snippets/navbar.html" %}
+	{% block content %}{% endblock content %}
+	{% include "snippets/footer.html" %}
+	{% include "snippets/scripts.html"%}
+</body>
+</html>

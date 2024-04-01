@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load bootstrap5 i18n %}
+{% block title %}
+  {% trans "Edit Profile" %}
+{% endblock title %}
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mx-auto mt-5">
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {% bootstrap_form form %}
+                <button type="submit" class="btn btn-primary col-md-12">{% trans "Save" %}</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock content %}
+    
